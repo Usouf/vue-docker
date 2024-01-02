@@ -13,4 +13,4 @@ COPY . .
 RUN npm run build
 
 EXPOSE 8001
-CMD ["http-server", "dist"]
+ENTRYPOINT ["http-server", "dist", "-p", "8001"]
