@@ -10,7 +10,7 @@ RUN npm install
 
 COPY . .
 
-RUN npm run buil
+RUN npm run build
 
 EXPOSE 8001
 CMD ["http-server", "dist]
